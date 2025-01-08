@@ -23,7 +23,9 @@ if __name__ == "__main__":
         rmtree(Path("PVA Output"))
     mkdir(Path("PVA Output"))
 
-    prop_keys = ["no_outliers", "drop", "control"]
+    prop_keys = ["no_outliers", "drop", "control"] 
+    
+    # 这是注释
 
     for prop_key in prop_keys:
 
